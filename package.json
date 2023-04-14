@@ -1,5 +1,5 @@
 {
-  "name": "openai-quickstart-node",
+  "name": "openai-toogol-translate",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -8,12 +8,19 @@
     "start": "next start"
   },
   "dependencies": {
+    "bootstrap": "^5.2.3",
     "next": "^13.1.1",
-    "openai": "^3.1.0",
+    "openai": "^3.2.1",
     "react": "^18.2.0",
+    "react-bootstrap": "^2.7.2",
     "react-dom": "^18.2.0"
   },
   "engines": {
     "node": ">=14.6.0"
+  },
+  "devDependencies": {
+    "@types/node": "^18.15.11",
+    "@types/react": "^18.0.33",
+    "typescript": "^5.0.4"
   }
 }
